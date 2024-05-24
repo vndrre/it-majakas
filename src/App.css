@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.landing-cover {
+    width: 100%;
+    height: 735px;
+    background-size: cover;
+    background-image: url(./assets/landing.svg);
+}
+
+.raamatupidaja {
+    background-image: url(./assets/profession-images/raamatupidaja.svg);
+    width: 275.4px;
+    height: 276.173px;
+    flex-shrink: 0;
+}
+
+.button1 {
+    border-radius: 25.344px 0px 0px 25.344px;
+    background: #F5821F;
+}
+
+.avaldus {
+    width: 375px;
+    height: 679px;
+    flex-shrink: 0;
+    background-image: url(./assets/Rectangle\ 34.svg);
+}
