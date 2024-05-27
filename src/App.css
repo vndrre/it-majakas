@@ -4,8 +4,44 @@
 @tailwind components;
 @tailwind utilities;
 
-.raamatupidamine {
-    height: 500px;
+.rp {
     width: 100%;
+    height: 350px;
+    background-size: cover;
     background-image: url(./assets/raamatupidamine.jpg);
+}
+
+.ev {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-image: url(./assets/ettevõtlus.jpg);
+}
+
+.ta {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-image: url(./assets/tarkvaraarendaja.jpg);
+}
+
+.vector1 {
+    width: 648px;
+    height: 724px;
+    background-size: cover;
+    background-image: url(./assets/vectors/vector1.jpg);
+}
+
+.vector2 {
+    width: 648px;
+    height: 493px;
+    background-size: cover;
+    background-image: url(./assets/vectors/vector2.jpg);
+}
+
+.vector3 {
+    width: 648px;
+    height: 215px;
+    background-size: cover;
+    background-image: url(./assets/vectors/vector3.jpg);
 }

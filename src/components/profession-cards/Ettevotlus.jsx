@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Raamadupidamine = () => {
+const Ettevotlus = () => {
   return (
     <a href='/' className='hover:scale-105 duration-500'>
-      <div className='w-full relative overflow-hidden bg-cover bg-no-repeat rp text-white font-manrope'>
+      <div className='w-full relative overflow-hidden bg-cover bg-no-repeat ev text-white font-manrope'>
         <div className='flex justify-between p-2'>
           <p></p>
           <a href="/">
@@ -15,8 +15,8 @@ const Raamadupidamine = () => {
         </div>
 
         <div className='py-[128px] px-[32px] pb-[32px] grid gap-[16px]'>
-          <h1 className='text-[18px] font-medium'>Raamatupidamine</h1>
-          <p className='text-[16px]'>Erialal õpitakse ettevõtte rahandust, finants-,<br/> maksu-, ja juhtimisarvestust. Õpingud lõppevad kutseeksamiga.</p>
+          <h1 className='text-[18px] font-medium'>Väike ettevõtlus</h1>
+          <p className='text-[16px]'>Erialal õpitakse äriplaani koostamist,<br/> raamatupidamise aluseid, turundust jt ärimaailma põhitõdesid.</p>
           <p></p>
         </div>
       </div>
@@ -24,4 +24,4 @@ const Raamadupidamine = () => {
   )
 }
 
-export default Raamadupidamine
+export default Ettevotlus
