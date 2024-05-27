@@ -7,15 +7,15 @@ const Why = () => {
     <div className='bg-[#E2E8F5] font-inter py-10 md:p-20 px-10'>
         <h1 className='text-center font-semibold text-[28px] md:text-[48px]'>Miks tulla õppima?</h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 md:mx-56 md:py-20">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:hidden gap-10 md:mx-56 md:py-20">
             <div className='grid grid-cols-1 gap-5 mt-14 md:mt-0 items-center'>
                 <div className='flex justify-center'>
                     <img src={icon1} alt="" />
                 </div>
 
-                <div className='text-center grid gap-2'>
-                    <h1 className='text-[20px] font-semibold'>Karjäärivõimalused</h1>
-                    <p className='text-[16px]'>erinevates valdkondades ning võimalus spetsialiseeruda konkreetsele erialale, suurendades seeläbi tööalast konkurentsivõimet.</p>
+                <div className='text-center lg:text-left grid gap-2'>
+                    <h1 className='text-[20px] lg:text-[28px] font-semibold'>Karjäärivõimalused</h1>
+                    <p className='text-[16px] lg:text-xl'>erinevates valdkondades ning võimalus spetsialiseeruda konkreetsele erialale, suurendades seeläbi tööalast konkurentsivõimet.</p>
                 </div>
             </div>
 
@@ -27,9 +27,9 @@ const Why = () => {
                     </svg>
                 </div>
 
-                <div className='text-center grid gap-2'>
-                    <h1 className='text-[20px] font-semibold'>Võrgustiku loomine</h1>
-                    <p className='text-[16px]'>erinevate taustadega õpilaste vahel võimaldab uute kontaktide loomist, koostööd ning tulevaste karjäärivõimaluste avardamist.</p>
+                <div className='text-center lg:text-left grid gap-2'>
+                    <h1 className='text-[20px] lg:text-[28px] font-semibold'>Võrgustiku loomine</h1>
+                    <p className='text-[16px] lg:text-xl'>erinevate taustadega õpilaste vahel võimaldab uute kontaktide loomist, koostööd ning tulevaste karjäärivõimaluste avardamist.</p>
                 </div>
             </div>
 
@@ -41,16 +41,57 @@ const Why = () => {
                 </svg>
                 </div>
 
-                <div className='text-center grid gap-2'>
-                    <h1 className='text-[20px] font-semibold'>Praktilised kogemused</h1>
-                    <p className='text-[16px]'>ja oskused, mis on olulised reaalse töökeskkonna nõudmistele vastamiseks ja aitavad toime tulla erinevate väljakutsetega tööl.</p>
+                <div className='text-center grid lg:text-left gap-2'>
+                    <h1 className='text-[20px] lg:text-[28px] font-semibold'>Praktilised kogemused</h1>
+                    <p className='text-[16px] lg:text-xl'>ja oskused, mis on olulised reaalse töökeskkonna nõudmistele vastamiseks ja aitavad toime tulla erinevate väljakutsetega tööl.</p>
+                </div>
+            </div>
+        </div>
+
+        <div className='hidden md:hidden lg:grid grid-cols-3 gap-14'>
+            <div className='grid gap-5 py-20'>
+                <div className='flex justify-center'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none" className='bg-[#01215F] rounded-full p-4 w-[70px] h-[70px]'>
+                        <path d="M37.9689 26.5312V34.5C37.9689 36.5512 36.4932 38.3175 34.4589 38.5875C30.5457 39.1069 26.5539 39.375 22.5001 39.375C18.4464 39.375 14.4545 39.1069 10.5414 38.5875C8.50698 38.3175 7.03135 36.5512 7.03135 34.5V26.5312M37.9689 26.5312C38.4141 26.1443 38.7703 25.6657 39.013 25.1281C39.2558 24.5905 39.3793 24.0067 39.3751 23.4169V16.3238C39.3751 14.2969 37.9351 12.5456 35.9307 12.2456C33.8069 11.9277 31.6724 11.6856 29.5314 11.52M37.9689 26.5312C37.6051 26.8406 37.1814 27.0844 36.707 27.2437C32.1249 28.7641 27.3278 29.5365 22.5001 29.5312C17.5351 29.5313 12.7595 28.7269 8.29323 27.2437C7.83059 27.0899 7.40209 26.8479 7.03135 26.5312M7.03135 26.5312C6.58612 26.1443 6.22991 25.6657 5.98716 25.1281C5.74442 24.5905 5.62091 24.0067 5.6251 23.4169V16.3238C5.6251 14.2969 7.0651 12.5456 9.06948 12.2456C11.1933 11.9277 13.3278 11.6856 15.4689 11.52M29.5314 11.52V9.84375C29.5314 8.72487 29.0869 7.65181 28.2957 6.86064C27.5045 6.06947 26.4315 5.625 25.3126 5.625H19.6876C18.5687 5.625 17.4957 6.06947 16.7045 6.86064C15.9133 7.65181 15.4689 8.72487 15.4689 9.84375V11.52M29.5314 11.52C24.8508 11.1583 20.1494 11.1583 15.4689 11.52M22.5001 23.9062H22.5151V23.9213H22.5001V23.9062Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+
+                <div className='text-center grid gap-5'>
+                    <h1 className='text-[32px] font-medium'>Karjäärivõimalused</h1>
+                    <p className='text-[20px]'>erinevates valdkondades ning võimalus spetsialiseeruda konkreetsele erialale, suurendades seeläbi tööalast konkurentsivõimet.</p>
+                </div>
+            </div>
+
+            <div className='grid gap-5 py-20'>
+                <div className='flex justify-center'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none" className='bg-[#01215F] rounded-full p-4 w-[70px] h-[70px]'>
+                        <path d="M24.7313 16.2901C25.9497 16.8718 27.0108 17.7374 27.8253 18.8142C28.6398 19.8911 29.1839 21.1476 29.4121 22.4784C29.6403 23.8092 29.5457 25.1752 29.1365 26.4619C28.7272 27.7485 28.0151 28.9182 27.0601 29.8726L18.6226 38.31C17.0402 39.8924 14.8941 40.7814 12.6563 40.7814C10.4185 40.7814 8.2724 39.8924 6.69005 38.31C5.1077 36.7277 4.21875 34.5816 4.21875 32.3438C4.21875 30.106 5.1077 27.9599 6.69005 26.3776L9.98443 23.0832M35.0157 21.9169L38.31 18.6226C39.8924 17.0402 40.7814 14.8941 40.7814 12.6563C40.7814 10.4185 39.8924 8.2724 38.31 6.69005C36.7277 5.1077 34.5816 4.21875 32.3438 4.21875C30.106 4.21875 27.9599 5.1077 26.3776 6.69005L17.9401 15.1276C16.985 16.0819 16.2729 17.2516 15.8636 18.5382C15.4544 19.8249 15.3598 21.1909 15.588 22.5217C15.8162 23.8525 16.3603 25.109 17.1748 26.1859C17.9893 27.2627 19.0504 28.1283 20.2688 28.7101" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+
+                <div className='text-center grid gap-5'>
+                    <h1 className='text-[32px] font-medium'>Võrgustiku loomine</h1>
+                    <p className='text-[20px]'> erinevate taustadega õpilaste vahel võimaldab uute kontaktide loomist, koostööd ning tulevaste karjäärivõimaluste avardamist.</p>
+                </div>
+            </div>
+
+            <div className='grid gap-5 py-20'>
+                <div className='flex justify-center'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none" className='bg-[#01215F] rounded-full p-4 w-[70px] h-[70px]' >
+                        <path d="M21.4121 28.4438L32.3434 39.375C33.2809 40.2825 34.5375 40.7852 35.8423 40.7746C37.147 40.764 38.3954 40.241 39.318 39.3184C40.2406 38.3957 40.7637 37.1474 40.7743 35.8427C40.7848 34.5379 40.2822 33.2812 39.3746 32.3438L28.3553 21.3244M21.4121 28.4438L26.0921 22.7625C26.6865 22.0425 27.4796 21.5888 28.3571 21.3263C29.3884 21.0188 30.5378 20.9738 31.6253 21.0638C33.0912 21.1896 34.5645 20.93 35.8991 20.3106C37.2337 19.6912 38.3832 18.7336 39.2334 17.5328C40.0835 16.3319 40.605 14.9297 40.7458 13.4651C40.8867 12.0006 40.6422 10.5246 40.0365 9.18375L33.894 15.3281C32.8663 15.0905 31.926 14.5691 31.1802 13.8232C30.4343 13.0774 29.9129 12.1371 29.6753 11.1094L35.8178 4.96687C34.4769 4.36118 33.0009 4.11664 31.5364 4.25753C30.0718 4.39842 28.6696 4.91983 27.4687 5.77003C26.2679 6.62023 25.3103 7.76965 24.6909 9.10424C24.0715 10.4388 23.8119 11.9122 23.9378 13.3781C24.1084 15.3956 23.8046 17.6231 22.2428 18.9094L22.0515 19.0688M21.4121 28.4438L12.684 39.0431C12.261 39.5588 11.7347 39.9801 11.139 40.2801C10.5433 40.58 9.8914 40.7519 9.22525 40.7847C8.5591 40.8175 7.89347 40.7104 7.2712 40.4704C6.64892 40.2304 6.0838 39.8628 5.61219 39.3912C5.14058 38.9196 4.77294 38.3545 4.53294 37.7322C4.29293 37.1099 4.18588 36.4443 4.21867 35.7781C4.25145 35.112 4.42336 34.4601 4.72331 33.8644C5.02326 33.2687 5.44461 32.7424 5.96025 32.3194L18.7796 21.7631L11.079 14.0625H8.43713L4.21838 7.03125L7.03088 4.21875L14.0621 8.4375V11.0794L22.0496 19.0669L18.7778 21.7613M34.4528 34.4531L29.5309 29.5313M9.12525 35.8594H9.14025V35.8744H9.12525V35.8594Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+
+                <div className='text-center grid gap-5'>
+                    <h1 className='text-[32px] font-medium'>Praktilised kogemused</h1>
+                    <p className='text-[20px]'>ja oskused, mis on olulised reaalse töökeskkonna nõudmistele vastamiseks ja aitavad toime tulla erinevate väljakutsetega tööl</p>
                 </div>
             </div>
         </div>
         
         <div>
             <a href="/" className='flex justify-center'>
-                <button className='btn py-3 px-5 bg-[#F99B49] hover:bg-[#e58a3f] duration-200 text-white flex items-center justify-center gap-1 rounded-full'>LOE LÄHEMALT</button>
+                <button className='btn lg:scale-125 py-3 px-5 bg-[#F99B49] hover:bg-[#e58a3f] duration-200 text-white flex items-center justify-center gap-1 rounded-full'>LOE LÄHEMALT</button>
             </a>
         </div>
     </div>

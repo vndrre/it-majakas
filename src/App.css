@@ -12,21 +12,14 @@
     background-image: url(./assets/landing.svg);
 }
 
-.raamatupidaja {
-    background-image: url(./assets/profession-images/raamatupidaja.svg);
-    width: 275.4px;
-    height: 276.173px;
-    flex-shrink: 0;
-}
-
 .button1 {
     border-radius: 25.344px 0px 0px 25.344px;
     background: #F5821F;
 }
 
 .avaldus {
-    width: 375px;
+    width: 100%;
     height: 679px;
-    flex-shrink: 0;
-    background-image: url(./assets/Rectangle\ 34.svg);
+    opacity: ;
+    background-image: url(./assets/avaldus.jpg);
 }
