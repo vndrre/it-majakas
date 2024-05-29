@@ -1,16 +1,19 @@
 import React from 'react'
-import Swiper from './testimonial-cards/Swiper'
+
+import Slider from './testimonial-cards/Slider'
 
 const Testimonials = () => {
   return (
-    <div className='bg-[#F5F5F5] p-10'>
-        <div className='text-center my-5'>
-            <h1 className='text-[28px] font-semibold'>Vilistlaste tagasiside</h1>
-        </div>
+    <div className='bg-[#F5F5F5] py-10 relative overflow-hidden bg-center bg-no-repeat quotemarks'>
+      <div className='text-center mt-10'>
+          <h1 className='text-[40px] font-semibold font-lora'>Vilistlaste tagasiside</h1>
+      </div>
 
-        <div className='py-20'>
-          <Swiper/>
+      <div className=''>
+        <div className='hidden md:hidden lg:flex'>
+          <Slider/>
         </div>
+      </div>
     </div>
   )
 }

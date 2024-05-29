@@ -7,7 +7,7 @@ const Why = () => {
     <div className='bg-[#E2E8F5] font-inter py-10 md:p-20 px-10'>
         <h1 className='text-center font-semibold text-[28px] md:text-[48px]'>Miks tulla õppima?</h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-1 lg:hidden gap-10 md:mx-56 md:py-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:hidden gap-10 md:py-20">
             <div className='grid grid-cols-1 gap-5 mt-14 md:mt-0 items-center'>
                 <div className='flex justify-center'>
                     <img src={icon1} alt="" />
@@ -48,7 +48,7 @@ const Why = () => {
             </div>
         </div>
 
-        <div className='hidden md:hidden lg:grid grid-cols-3 gap-14'>
+        <div className='hidden md:hidden lg:grid grid-cols-3 gap-14 px-28'>
             <div className='grid gap-5 py-20'>
                 <div className='flex justify-center'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none" className='bg-[#01215F] rounded-full p-4 w-[70px] h-[70px]'>
