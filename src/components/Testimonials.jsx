@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Slider from './testimonial-cards/Slider'
+import Slider2 from './testimonial-cards/mobile-slider/Slider2'
 
 const Testimonials = () => {
   return (
@@ -10,8 +11,12 @@ const Testimonials = () => {
       </div>
 
       <div className=''>
-        <div className='hidden md:hidden lg:flex'>
+        <div className='hidden md:flex lg:flex'>
           <Slider/>
+        </div>
+
+        <div>
+          <Slider2/>
         </div>
       </div>
     </div>

@@ -5,9 +5,9 @@ import icon1 from '../assets/icons/Group 12.png'
 const Why = () => {
   return (
     <div className='bg-[#E2E8F5] font-inter py-10 md:p-20 px-10'>
-        <h1 className='text-center font-semibold text-[28px] md:text-[48px]'>Miks tulla õppima?</h1>
+        <h1 className='text-center font-semibold text-[28px] md:text-[48px] font-lora'>Miks tulla õppima?</h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:hidden gap-10 md:py-20">
+        <div className="grid grid-cols-1 lg:hidden gap-10 md:py-20">
             <div className='grid grid-cols-1 gap-5 mt-14 md:mt-0 items-center'>
                 <div className='flex justify-center'>
                     <img src={icon1} alt="" />
@@ -48,7 +48,7 @@ const Why = () => {
             </div>
         </div>
 
-        <div className='hidden md:hidden lg:grid grid-cols-3 gap-14 px-28'>
+        <div className='hidden md:hidden lg:grid grid-cols-3 gap-20 px-5'>
             <div className='grid gap-5 py-20'>
                 <div className='flex justify-center'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none" className='bg-[#01215F] rounded-full p-4 w-[70px] h-[70px]'>
@@ -89,9 +89,9 @@ const Why = () => {
             </div>
         </div>
         
-        <div>
+        <div className='py-5'>
             <a href="/" className='flex justify-center'>
-                <button className='btn lg:scale-125 py-3 px-5 bg-[#F99B49] hover:bg-[#e58a3f] duration-200 text-white flex items-center justify-center gap-1 rounded-full'>LOE LÄHEMALT</button>
+                <button className='btn lg:scale-110 py-2 px-5 bg-[#F5821F] hover:bg-[#DF6B07] duration-200 shadow-sm text-white flex items-center justify-center gap-1 rounded-full'>LOE LÄHEMALT</button>
             </a>
         </div>
     </div>
